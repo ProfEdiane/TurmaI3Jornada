@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Informações</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Informações</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="info.css">
+  <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Lobster&family=Titan+One&display=swap"
+    rel="stylesheet">
+  <script src='main.js'></script>
 </head>
+
 <body>
-    <header>
-        <img src="logo.jpg">
+  <header>
+    <img class="logo" src="logo.jpg">
+    <div class="menu">
+      <nav>
+        <ul>
+
+          <li><a href="index.html">Página Inicial</a></li>
+          <li><a href="grupo.html">Sobre o Grupo</a></li>
+          <li><a href="info.html">Mais Informações</a></li>
+          <li><a href="participar.html">Como Participar</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <ul class="inform">
+      <li>
+        <h2>Formadores em Ação</h2>
+        <img class="inf" src="formadores.jpg">
+        <p class="produto-descricao">O programa Formadores em Ação é um grupo de estudos que tem a proposta de abordar a prática em sala de aula aliada a metodologias ativas e tecnologias educacionais. O curso é tanto ministrado quanto destinado a professores da rede estadual de ensino.</p>
         
+      </li>
 
-          <ul>
-
-            <li>Página Inicial</li>
-            <li>Sobre o Grupo</li>
-            <li>Mais Informações</li>
-            <li>Como Participar</li>
-          
-          </ul>
-
+      <li>
+        <h2>SEED</h2>
+        <img class="inf" src="seed.png">
+        <p class="produto-descricao">À Secretaria de Estado da Educação e do Esporte - Seed compete:...</p>
         
-          
-      </header>  
+      </li>
+
+      <li>
+        <h2>Alura</h2>
+        <img class="inf" src="alura.jpg">
+        <p class="produto-descricao">A Alura compõe o maior ecossistema de ensino em tecnologia do Brasil e tem como missão transformar vidas e carreiras. Sabemos que o trabalho em Tech mudou. As profissões se tornaram mais líquidas e as fronteiras entre elas já não estão bem definidas.</p>
+        
+      </li>
+
+    </ul>
+  </main>
 </body>
+
 </html>

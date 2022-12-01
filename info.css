@@ -1,0 +1,70 @@
+body {
+    background-color:#1C1C1C;
+    height: 250vw;}
+    
+header {
+    background-color: rgb(125, 140, 121);
+}
+
+.logo {
+    width: 12%;
+}
+nav{
+    
+    position:absolute;
+    top:50px;
+    right: 50px;
+    
+
+}
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    font-size: 22px;
+    color: rgb(21, 20, 20);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.inform li{
+    display: inline-block;
+    text-align: center;
+	width: 25%;
+	vertical-align: top;
+	margin-right: 5px;
+	padding: 30px 20px;
+    border-top: 5px rgb(79, 169, 125) double;
+    border-left:5px rgba(191, 205, 204, 0.897) double;; 
+    border-bottom:5px rgb(79, 169, 125)  double; ;
+    border-right:5px rgba(191, 205, 204, 0.897) double; ;
+    border-radius: 10px;
+}
+.inform h2{
+    color: aliceblue;
+    font-size: 26px;
+}
+
+.inf{
+    width: 25%;
+    border:2px rgb(37, 57, 32) solid;
+    text-align: justify;
+}
+
+.inform {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+
+}
+.produto-descricao{
+    font-size: 25px;
+    color: #ece6e6;
+}
+
+	
+
